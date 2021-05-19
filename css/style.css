@@ -1,0 +1,99 @@
+body{
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+header{
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.navbar{
+    padding: 20px 0;
+}
+.navbar-brand{
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.manu{
+
+}
+.manu ul li a{
+    color: black !important ;
+    
+}
+.manu ul li a:hover{
+ color: blue !important;
+    
+}
+.btn-search:focus{
+    box-shadow: none;
+}
+
+.d_search[data-bs-popper] {
+    left: -155px;
+    margin-top: 45px;
+}
+
+.d_search {
+    padding: 10px;
+    width: 218px;
+    transition: 0.5s;
+}
+
+
+/* banner start */
+.c_P_padding{
+    padding: 0;
+}
+.c_c_p{
+    bottom: 10rem;
+    text-align: left;
+    width: 44%;
+}
+.c_c_p .c_h1{
+
+font-size: 40px;
+
+font-weight: 400;
+
+color: white;
+}
+.c_c_p .c_p{
+
+font-size: 16px;
+
+margin: 42px 0;
+
+color: white;
+
+font-weight: 400;
+}
+.c_c_p .c_btn{
+
+font-size: 16px;
+}
+
+.c_c_prev_btn, .c_c_next_btn{
+    
+    align-items: flex-end;
+    color: red;
+}
+.c_c_prev_btn{
+
+text-transform: uppercase;
+}
+.c_c_next_btn{
+    right: auto;
+    left: 80px;
+    text-transform: uppercase;
+}
+
+.c_prev_icon, .c_next_icon{
+    background-image: none;
+
+}
+
+
+
+/* banner end */
